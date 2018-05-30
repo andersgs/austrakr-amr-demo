@@ -1,0 +1,34 @@
+{
+  "name": "austrakr-amr",
+  "version": "1.0.0",
+  "description": "Tracking of AMR in Oz",
+  "author": "Anders Goncalves da Silva <andersgs@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+  },
+  "dependencies": {
+    "ajv": "^6.5.0",
+    "ajv-keywords": "^3.2.0",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "mockjs": "^1.0.1-beta3",
+    "moment": "^2.22.1",
+    "nuxt": "^1.0.0",
+    "nuxt-leaflet": "0.0.10",
+    "phylocanvas": "^2.8.1",
+    "vue-tables-2": "^1.4.50",
+    "vue2-datatable-component": "^2.3.0",
+    "vue2-leaflet": "^1.0.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "push-dir": "^0.4.1"
+  }
+}
