@@ -11,9 +11,9 @@ module.exports = {
   /*
   ** Headers of the page
   */
-  router: {
-    base: "/austrakr-amr-demo/"
-  },
+//  router: {
+//    base: "/austrakr-amr-demo/"
+//  },
   head: {
     title: "austrakr-amr",
     meta: [
